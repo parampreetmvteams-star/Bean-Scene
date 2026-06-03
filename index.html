@@ -6,15 +6,13 @@
     <title>Bean Scene</title>
     <link rel="stylesheet" href="style.css" />
     <!-- font Clicker Script link  -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap"/>
     <!-- font Playfair Display link  -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"/>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
   </head>
   <body>
     <section class="hero-section">
@@ -232,60 +230,154 @@
         <!-- Coffee Beans -->
         <img src="images/coffee-bean.png" class="beans-right" alt="" />
       </section>
-
       <!-- Testimonial Section -->
-<section class="testimonial-section">
-  <div class="container">
-    
-    <div class="section-heading">
-      <h2>Our coffee perfection feedback</h2>
-      <p>Our customers has amazing things to say about us</p>
-    </div>
+      <section class="testimonial-section">
+        <img src="images/coffee-blast-right.png" alt="" class="splash-right">
+        <img src="images/coffee-blast.svg" alt="" class="splash-left ">
+        <div class="container">
+          
+          <div class="section-heading">
+            <h2>Our coffee perfection feedback</h2>
+            <p>Our customers has amazing things to say about us</p>
+          </div>
+          
+          <div class="testimonial-slide swiper mySwiper">
+            
+            <button class="arrow-btn left-btn swiper-button-prev">
+              <img src="images/left-arrow.svg" alt="">
+            </button>
 
-    <div class="testimonial-wrapper">
+            <button class="arrow-btn right-btn swiper-button-next">
+              <img src="images/right-arrow.svg" alt="">
+            </button>
 
-      <!-- Left Arrow -->
-      <button class="arrow-btn left-btn">
-        <img src="images/left-arrow.svg" alt="">
-      </button>
+            <div class="testimonial-wrapper swiper-wrapper">
 
-      <!-- Right Arrow -->
-      <button class="arrow-btn right-btn">
-        <img src="images/right-arrow.svg" alt="">
-      </button>
 
-      <!-- Top Splash -->
-      <img src="images/coffee-splash-top.png" alt="" class="splash-top">
+              <div class="testimonial-card swiper-slide">
 
-      <!-- Bottom Splash -->
-      <img src="images/coffee-splash-bottom.png" alt="" class="splash-bottom">
+                <span class="quote-icon">
+                  <img src="images/quote.svg" alt="">
+                </span>
 
-      <div class="testimonial-card">
+                <p class="testimonial-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five centuries,
+                  but also the leap into electronic typesetting, remaining essentially
+                  unchanged. It was popularised in the 1960s with the release of Letraset.....
+                </p>
 
-        <span class="quote-icon">
-          <img src="images/quote.svg" alt="">
-        </span>
+                <h3>Jonny Thomas</h3>
+                <span class="designation">Project Manager</span>
 
-        <p class="testimonial-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of Letraset.....
-        </p>
+                <div class="client-img">
+                  <img src="images/testimonals.png" alt="Client">
+                </div>
 
-        <h3>Jonny Thomas</h3>
-        <span class="designation">Project Manager</span>
+              </div>
 
-        <div class="client-img">
-          <img src="images/testimonals.png" alt="Client">
+              <div class="testimonial-card swiper-slide">
+
+                <span class="quote-icon">
+                  <img src="images/quote.svg" alt="">
+                </span>
+
+                <p class="testimonial-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five centuries,
+                  but also the leap into electronic typesetting, remaining essentially
+                  unchanged. It was popularised in the 1960s with the release of Letraset.....
+                </p>
+
+                <h3>Jonny Thomas</h3>
+                <span class="designation">Project Manager</span>
+
+                <div class="client-img">
+                  <img src="images/testimonals.png" alt="Client">
+                </div>
+
+              </div>
+
+              <div class="testimonial-card swiper-slide">
+
+                <span class="quote-icon">
+                  <img src="images/quote.svg" alt="">
+                </span>
+
+                <p class="testimonial-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five centuries,
+                  but also the leap into electronic typesetting, remaining essentially
+                  unchanged. It was popularised in the 1960s with the release of Letraset.....
+                </p>
+
+                <h3>Jonny Thomas</h3>
+                <span class="designation">Project Manager</span>
+
+                <div class="client-img">
+                  <img src="images/testimonals.png" alt="Client">
+                </div>
+
+              </div>
+
+              <div class="testimonial-card swiper-slide">
+
+                <span class="quote-icon">
+                  <img src="images/quote.svg" alt="">
+                </span>
+
+                <p class="testimonial-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five centuries,
+                  but also the leap into electronic typesetting, remaining essentially
+                  unchanged. It was popularised in the 1960s with the release of Letraset.....
+                </p>
+
+                <h3>Jonny Thomas</h3>
+                <span class="designation">Project Manager</span>
+
+                <div class="client-img">
+                  <img src="images/testimonals.png" alt="Client">
+                </div>
+
+              </div>
+
+              <div class="testimonial-card swiper-slide">
+
+                <span class="quote-icon">
+                  <img src="images/quote.svg" alt="">
+                </span>
+
+                <p class="testimonial-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the
+                  1500s, when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five centuries,
+                  but also the leap into electronic typesetting, remaining essentially
+                  unchanged. It was popularised in the 1960s with the release of Letraset.....
+                </p>
+
+                <h3>Jonny Thomas</h3>
+                <span class="designation">Project Manager</span>
+
+                <div class="client-img">
+                  <img src="images/testimonals.png" alt="Client">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
         </div>
-
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <!-- SUBSCRIBE SECTION -->
       <section class="subscribe-section">
@@ -378,5 +470,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>

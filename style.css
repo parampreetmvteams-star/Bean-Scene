@@ -383,7 +383,7 @@ button {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
 }
 
 .overlay {
@@ -442,8 +442,6 @@ button {
     /* width: 420px; */
 }
 
-/* Beans */
-
 .beans-right {
     position: absolute;
     right: 0;
@@ -455,9 +453,9 @@ button {
 /* TESTIMONIAL SECTION */
 
 .testimonial-section {
-  background: #fdfbf8;
-  padding: 100px 20px;
+  padding-bottom: 7rem;
   overflow: hidden;
+  position: relative;
 }
 
 .section-heading {
@@ -476,114 +474,108 @@ button {
   color: var(--text-color);
   font-size: 20px;
 }
-
-.testimonial-wrapper {
-  position: relative;
+.testimonial-slide{
   max-width: 1180px;
+
+}
+.testimonial-wrapper {
+  /* position: relative; */
   margin: auto;
+  /* overflow: visible; */
 }
 
 .testimonial-card {
-  position: relative;
   background: var(--card-bg);
   border: 1px solid #f1e0c7;
-  padding: 70px 90px 120px;
+  padding: 50px 50px 100px;
   text-align: center;
   overflow: visible;
 }
 
-/* Quote Icon */
 .quote-icon {
   display: block;
-  font-size: 120px;
   color: var(--dark-brown);
-  line-height: 1;
   text-align: left;
   margin-bottom: 10px;
 }
 
-/* Text */
 .testimonial-text {
-  max-width: 850px;
+  max-width: 780px;
   margin: auto;
   color: var(--text-color);
   line-height: 2;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+  margin-top: 20px;
 }
 
-/* Name */
 .testimonial-card h3 {
   margin-top: 35px;
-  font-size: 34px;
+  font-size: 32px;
   color: var(--dark-brown);
   font-weight: 700;
 }
 
-/* Designation */
 .designation {
   display: block;
   margin-top: 10px;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 20px;
 }
 
-/* Client Image */
 .client-img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -60px;
+  bottom: -70px;
+  overflow: visible;
 }
 
 .client-img img {
-  width: 110px;
-  height: 110px;
   border-radius: 16px;
   object-fit: cover;
   /* box-shadow: 0 10px 20px rgba(0,0,0,0.08); */
 }
 
-/* Splash Images */
-.splash-top {
+.splash-right {
   position: absolute;
-  top: -20px;
-  right: -40px;
-  width: 320px;
+  /* top: -20px; */
+  right: 0;
   z-index: 2;
 }
 
-.splash-bottom {
+.splash-left {
   position: absolute;
-  left: -120px;
-  bottom: -40px;
-  width: 320px;
+  left: 0;
+  bottom: 10%;
   z-index: 2;
+  /* rotate: 180deg; */
 }
-
-/* Arrow Buttons */
+.swiper-navigation-icon {
+  display: none;
+}
 .arrow-btn {
   width: 82px;
   height: 82px;
   background: var(--light-brown);
-  border-radius: 16px;
-  font-size: 28px;
+  border-radius: 10px;
   color: var(--dark-brown);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
   z-index: 5;
   transition: 0.3s;
-  box-shadow: 0 8px 20px rgba(249, 192, 106, 0.4);
+  /* box-shadow: 0 8px 20px rgba(249, 192, 106, 0.4); */
 }
 
 .arrow-btn:hover {
-  background: var(--dark-brown);
+  /* background: var(--dark-brown); */
   color: var(--white);
 }
 
 .left-btn {
-  left: -40px;
+  /* left: -40px; */
+  /* top:10%; */
 }
 
 .right-btn {
